@@ -16,3 +16,26 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* таймер */
+input {
+  text-align: center;
+}
+.timer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  margin: 40px 40px;
+  gap: 40;
+}
+
+.value {
+  color: #443979;
+  font-size: 40px;
+  font-weight: 700;
+}
+span {
+  display: block;
+  font-size: 18px;
+}
