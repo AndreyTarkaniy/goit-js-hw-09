@@ -48,6 +48,4 @@ function formBtnSubmit(event) {
       delay += step;
     }, delay);
   }
-
-  form.reset();
 }
