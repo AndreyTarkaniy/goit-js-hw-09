@@ -49,7 +49,7 @@ function handleStartBtnClick() {
 
     // console.log(inputDays.textContent);
 
-    if (diffTime < 0) {
+    if (diffTime < 1000) {
       clearInterval(timerId);
     }
   }, 1000);
